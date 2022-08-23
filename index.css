@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.container div p {
+    height: 3rem;
+    width: 15rem;
+    padding: 2rem;
+    
+}
+
+.container div img {
+    border-radius: 10rem;
+    height: 25rem;
+    width: 20rem;
+    margin-right: 4rem;
+    
+}
+
+.container div iframe {
+    width: 19rem;
+    height: 19rem;
+    margin: 2rem;
+    background: none;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 3.3rem;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+}
+
+.menu {
+    padding: 2rem;
+    margin-bottom: 3.8rem;
+}
+.menu li {
+    display: inline;
+    padding: 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.menu li a:hover {
+    color: orange;
+}
+
+.centro {
+    padding: 4rem;
+    text-align: center;
+}

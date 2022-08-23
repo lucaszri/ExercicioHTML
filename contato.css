@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+}
+.menu {
+    padding: 2rem;
+    margin-bottom: 0.8rem;
+}
+.menu li {
+    display: inline;
+    padding: 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.menu li a:hover {
+    color: orange;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 2.7rem;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./contato.png);
+    padding: 6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5rem;
+}
+
+.container div  {
+   font-size: 1.2rem;
+   padding: 0.6rem;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container div input {
+    border-radius: 10px;
+}
+
+.container div textarea {
+    border-radius: 10px;
+}
+
+.container div label {
+    -webkit-text-stroke: 1px black;
+}
+
+#assunto-label {
+    margin-bottom: 2rem;
+}
+.titulo2 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+}
+
+.endereco {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centro {
+    padding: 4rem;
+    text-align: center;
+}
+
