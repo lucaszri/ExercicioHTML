@@ -1,31 +1,69 @@
+/* Tags  */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: white;
     background-color: black;
 }
 
 
-.container {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    background-color: rgba(0, 0, 0, 0.137);
-}
+/* Menu  */
 
-.container div p {
-    height: 3rem;
-    width: 15rem;
+.menu {
+    margin: auto;
+    text-align: center;
     padding: 2rem;
     
+
+}
+.menu li {
+    display: inline;
+    padding: 1rem;
+    background-color: rgba(255, 153, 37, 0.726);
+    font-weight:550;
 }
 
-.container div img {
-    border-radius: 10rem;
-    height: 25rem;
-    width: 20rem;
-    margin-right: 4rem;
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu li a:hover {
+    color: rgb(255, 195, 146);
+}
+
+/* Container textos/imagens  */
+
+.container-texto {
+    display:flex;
+    flex-wrap: wrap;
     
 }
 
+.container-texto div {
+    width: 15rem;
+    text-align: center;
+    
+}
+
+.container-texto div p {
+ color: white;
+ margin: 1rem;
+}
+
+.container-texto div img {
+        border-radius: 35%;
+        width: 15rem;
+        height: 25rem;
+}
+
+/* Container Videos */
 .container div iframe {
     width: 19rem;
     height: 19rem;
@@ -33,44 +71,31 @@ body {
     background: none;
 }
 
+.container {
+    display: flex;
+    flex-flow: wrap;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+/* Cabeçalhos  */
 .titulo {
     text-align: center;
     font-family: 'Luckiest Guy';
     font-size: 3.3rem;
+    padding: 3rem;
 }
 
 .titulo2 {
     text-align: center;
     font-family: 'Luckiest Guy';
     font-size: 2rem;
+    padding: 3rem;
 }
 
-.menu {
-    padding: 2rem;
-    margin-bottom: 3.8rem;
-}
-.menu li {
-    display: inline;
-    padding: 1rem;
-}
-
-.menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-.menu li a:hover {
-    color: orange;
-}
 
 .centro {
     padding: 4rem;
     text-align: center;
 }
 
-#mapa {
-    width:12.5rem;
-    height:12.5rem;
-    border-radius:50%;
-}
+
